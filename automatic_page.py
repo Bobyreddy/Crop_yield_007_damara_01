@@ -4,7 +4,7 @@ import numpy as np
 
 
 def load_model():
-    data = pickle.load(open('saved_models\RFR_model.pkl', 'rb'))
+    data = pickle.load(open('\saved_models\RFR_model.pkl', 'rb'))
     return data
 
 
